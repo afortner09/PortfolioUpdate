@@ -1,0 +1,97 @@
+*{
+    background-color: #333333;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+ul {
+    display: inline;
+    margin: 5vh 1vh 0vh 1vh;
+}
+body{
+    background-color: #333333;
+}
+.container {
+    padding-top: 10vh;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+  }
+#contact{
+    color: #fffaf0;
+    font-size: 2.1vh;
+    position: relative;
+    top: 0vh; 
+    left: 0vh;
+    transition-duration: 0.4s;
+}
+#contact:hover{
+    color: orange;
+    cursor: pointer;
+}
+#messageIcon{
+    color: orange;
+    position: relative;
+    top: 0px; 
+    left: 5px;
+    margin: 5vh 1vh 0vh 3vh;
+    
+}
+#github{
+    color: orange;
+    transition-duration: 0.4s;
+}
+#github:hover{
+    color: #fffaf0;
+    cursor: pointer;
+}
+#resume{
+    color: orange;
+    transition-duration: 0.4s;
+}
+#resume:hover{
+    color: #fffaf0;
+    cursor: pointer;
+}
+#linkedin{
+    color: orange;
+    transition-duration: 0.4s;
+}
+#linkedin:hover{
+    color: #fffaf0;
+    cursor: pointer;
+}
+
+#contact {
+    margin-left: 20px
+}
+#profilePic {
+    border-radius: 100px;
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 30px 5px orange;
+}
+#name {
+    font-size: 10.7vh;
+    margin-bottom: 25px;
+    color: orange;
+}
+#intro {
+    font-size: 3.2vh;
+    color: #fffaf0;
+
+}
